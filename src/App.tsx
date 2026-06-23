@@ -59,7 +59,7 @@ export default function App() {
   const isAIAssessment = currentPage === 'ai-assessment';
 
   return (
-    <div className="flex h-screen overflow-hidden bg-surface font-sans">
+    <div className="flex w-full h-screen overflow-hidden bg-surface font-sans">
       {/* Sidebar */}
       <Sidebar currentPage={currentPage} onNavigate={setCurrentPage} />
 
